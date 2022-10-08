@@ -11,11 +11,9 @@ btnIncrementRef.addEventListener("click", increment);
 function decrement() {
   counterValue -= 1;
   valueRef.textContent = counterValue;
-  return counterValue;
 }
 
 function increment() {
   counterValue += 1;
   valueRef.textContent = counterValue;
-  return counterValue;
 }
